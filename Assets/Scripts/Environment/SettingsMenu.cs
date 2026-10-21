@@ -9,19 +9,18 @@ public class SettingsMenu : MonoBehaviour
 
     private void Start()
     {
-        float volume = PlayerPrefs.GetFloat("Volume", 1f);
-        AudioListener.volume = volume;
-
         if (volumeSlider != null)
         {
-            volumeSlider.value = volume;
-            volumeSlider.onValueChanged.AddListener(SetVolume);
+            volumeSlider.minValue = 0f;
+            volumeSlider.maxValue = 1f;
+            volumeSlider.SetValueWithoutNotify(CombatMusicManager.GetMusicVolume());
+            volumeSlider.onValueChanged.AddListener(CombatMusicManager.SetMusicVolume);
         }
 
         if (difficultyDropdown != null)
         {
             int difficulty = PlayerPrefs.GetInt("Difficulty", 1);
-            difficultyDropdown.value = difficulty;
+            difficultyDropdown.SetValueWithoutNotify(difficulty);
             difficultyDropdown.onValueChanged.AddListener(SetDifficulty);
         }
     }
