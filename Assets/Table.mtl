@@ -1,0 +1,36 @@
+# Blender 5.2.2 LTS MTL File: 'Rooms&FurnitureJoined.blend'
+# www.blender.org
+
+newmtl Galvanized_Steel
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Metal051C_4K-JPG_Color.jpg
+map_Ns C:/Metal051C_4K-JPG_Roughness.jpg
+map_refl C:/Metal051C_4K-JPG_Metalness.jpg
+map_Bump -bm 1.000000 C:/Metal051C_4K-JPG_NormalGL.jpg
+
+newmtl Wood_Rough_001a
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/WoodRough001a_Color.jpg
+map_Ns C:/WoodRough001a_Roughness.jpg
+map_Bump -bm 1.000000 C:/WoodRough001a_Normals.jpg
+
+newmtl Wooden_Floor
+Ka 1.000000 1.000000 1.000000
+Ks 0.250000 0.250000 0.250000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wooden_floor_12_albedo.jpg
+map_Ns C:/wooden_floor_12_rough.exr
+map_Bump -bm 1.000000 C:/wooden_floor_12_normal.jpg

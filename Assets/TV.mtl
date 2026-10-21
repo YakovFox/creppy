@@ -1,0 +1,63 @@
+# Blender 5.2.2 LTS MTL File: 'Rooms&FurnitureJoined.blend'
+# www.blender.org
+
+newmtl Black_plastic
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/plastic_diffuse.jpg
+map_Ks C:/plastic_specular.jpg
+map_Bump -bm 1.000000 C:/plastic_normal_opengl.jpg
+
+newmtl Black_plastic_(old_plastic)
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Edge_Wear_Plastic_(Worn_Red_Plastic)
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Gray_Plastic_(Plastic)
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Procedural_glass_material_for_every_use
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Procedural_pearl_red_painted_plastic
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.703470 0.002091 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2

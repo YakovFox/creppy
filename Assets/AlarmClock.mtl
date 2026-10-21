@@ -1,0 +1,69 @@
+# Blender 5.2.2 LTS MTL File: 'Rooms&FurnitureJoined.blend'
+# www.blender.org
+
+newmtl Cast_Oxidized_Iron
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Metal060C_4K-JPG_Color.jpg
+map_Ns C:/Metal060C_4K-JPG_Roughness.jpg
+map_refl C:/Metal060C_4K-JPG_Metalness.jpg
+map_Bump -bm 1.000000 C:/Metal060C_4K-JPG_NormalGL.jpg
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Clock.png
+
+newmtl Metal_Scratched_Paint_Blue
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Metal_oxidized
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/metal oxidized_BaseColor.jpg
+map_Ns C:/metal oxidized_Roughness.jpg
+map_refl C:/metal oxidized_Metallic.jpg
+map_Bump -bm 1.000000 C:/metal oxidized_Normal.jpg
+
+newmtl Rusted_Scratched_Steel
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Metal055B_4K-JPG_Color.jpg
+map_Ns C:/Metal055B_4K-JPG_Roughness.jpg
+map_refl C:/Metal055B_4K-JPG_Metalness.jpg
+map_Bump -bm 1.000000 C:/Metal055B_4K-JPG_NormalGL.jpg
+
+newmtl Smooth_wood
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/smooth wood_BaseColor.jpg
+map_Ns C:/smooth wood_Roughness.jpg
+map_Bump -bm 1.000000 C:/smooth wood_Normal.jpg
